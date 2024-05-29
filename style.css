@@ -1,0 +1,46 @@
+body{
+    background-image: url("images/bg_tour.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+h1, h2, h3, h5, p{
+    text-align: center;
+    color: dimgray;
+}
+.place-text{
+    text-align: left;
+}
+.purple-text{
+    color: firebrick;
+}
+.white_text{
+    color: white;
+}
+.opacity{
+    opacity: 0.25;
+}
+.gradien{
+    background: rgb(2,0,36);
+    background: linear-gradient(307deg, rgba(2,0,36,1) 0%, rgba(121,9,9,0) 100%, rgba(0,212,255,1) 100%); 
+}
+.centre-image{
+    margin: 0 auto;
+    display: block;
+}
+.bgcol{
+    background-color: rgba(128, 128, 128, 0.238);
+}
+.column {
+    display:table-row;
+    margin: 0 auto;
+    width: 20%;
+    padding: 25px;
+  }  
