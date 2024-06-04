@@ -1,19 +1,55 @@
 body{
-    background-image: url("images/bg_tour.jpg");
+    background-image: url("images/thatch.bmp");
+}
+#banner{
+    height: 300px;
+    width: 1600px;
+    top: 0;
+    left: 0;
+    background-image: url("images/page_banner.jpg");
     background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
+}
+.banner_div{
+    padding: 0px;
+    font-size: 24px;
+    display: flex;
+}
+.back{
+    background-image: url("images/thatch.bmp");
+}
+#sidebar{
+    height: 1270px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 300;
+    padding-top: 12px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("images/sidebar.png");
+    background-repeat: no-repeat;
+}
+.sidebar_div{
+    padding: 0px;
+    font-size: 24px;
+    display: flex;
 }
 nav{
     text-align: right;
     display: flex;
     justify-content: space-evenly;
-    padding-left: 50%;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
 }
 h1, h2, h3, h5, p{
     text-align: center;
-    color: dimgray;
+    color: rgb(212, 212, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul, li{
+    color: rgb(212, 212, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .table{
     text-align: left;
@@ -47,5 +83,8 @@ h1, h2, h3, h5, p{
     display:table-row;
     margin: 0 auto;
     width: 20%;
-    padding: 25px;
-  }  
+    padding: 10px;
+}  
+.transparent_text{
+    color: rgba(186, 193, 210, 0);
+}
