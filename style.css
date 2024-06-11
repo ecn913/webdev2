@@ -1,0 +1,108 @@
+body{
+    background-image: url("images/thatch.bmp");
+}
+#banner{
+    height: 300px;
+    width: 1600px;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background-image: url("images/page_banner.jpg");
+    background-repeat: no-repeat;
+}
+#banner2{
+	height: 300px;
+    width: 1280px;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background-image: url("images/banner2.png");
+    background-repeat: no-repeat;
+}
+.banner_div{
+    font-size: 24px;
+    /*display: flex;*/
+}
+.back{
+    background-image: url("images/thatch.bmp");
+}
+#sidebar{
+    height: 1300px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 300;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("images/sidebar.png");
+    background-repeat: no-repeat;
+}
+#sidebar2{
+    height: 1300px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 300;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("images/sidebar2.png");
+    background-repeat: no-repeat;
+}
+.sidebar_div{
+    font-size: 24px;
+    /*display: flex;*/
+}
+.sidebar_button{
+	top: 20;
+	line-height: 2.0;
+}
+nav{
+    /*display: flex;*/
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-right: 0px;
+}
+h1, h2, h3, h5, p{
+    text-align: center;
+    color: rgb(212, 212, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul, li{
+    color: rgb(212, 212, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table{
+    text-align: left;
+    font-size: large;
+    color: rgb(212, 212, 212);
+}
+.place-text{
+    text-align: left;
+}
+.purple-text{
+    color: red;
+}
+.white_text{
+    color: rgb(212, 212, 212);
+}
+.gradien{
+    background: rgb(2,0,36);
+    background: linear-gradient(307deg, rgba(2,0,36,1) 0%, rgba(121,9,9,0) 100%, rgba(0,212,255,1) 100%);
+}
+.centre-image{
+    margin: 0 auto;
+    display: block;
+}
+.bgcol{
+    background: rgb(2,0,36);
+}
+.column {
+    display:table-row;
+    margin: 0 auto;
+    width: 20%;
+    padding: 10px;
+}  
+.transparent_text{
+    color: rgba(186, 193, 210, 0);
+}
