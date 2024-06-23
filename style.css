@@ -1,23 +1,36 @@
 body{
     background-image: url("images/thatch.bmp");
+    top: 300px;
 }
 #banner{
     height: 300px;
-    width: 1600px;
+    width: 1265px;
     top: 0;
     left: 0;
+    position: absolute;
     margin: 0px;
     background-image: url("images/page_banner.jpg");
     background-repeat: no-repeat;
 }
 #banner2{
 	height: 300px;
-    width: 1280px;
+    width: 1265px;
     top: 0;
     left: 0;
     margin: 0px;
+    position: absolute;
     background-image: url("images/banner2.png");
     background-repeat: no-repeat;
+}
+#banner3{
+	height: 300px;
+    width: 1265px;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    position: absolute;
+    background-image: url("images/banner3.png");
+    background-repeat: no-repeat;	
 }
 .banner_div{
     font-size: 24px;
@@ -26,26 +39,40 @@ body{
 .back{
     background-image: url("images/thatch.bmp");
 }
+#start{
+	margin-top: 300px;	
+}
 #sidebar{
     height: 1300px;
     width: 300px;
     position: absolute;
     left: 0;
-    top: 300;
+    top: 300px;
     text-align: left;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("images/sidebar.png");
     background-repeat: no-repeat;
 }
 #sidebar2{
-    height: 1300px;
+    height: 1270px;
     width: 300px;
     position: absolute;
     left: 0;
-    top: 300;
+    top: 300px;
     text-align: left;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("images/sidebar2.png");
+    background-repeat: no-repeat;
+}
+#sidebar2_long{
+    height: 2300px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 300px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("images/sidebar2_long.png");
     background-repeat: no-repeat;
 }
 .sidebar_div{
@@ -63,7 +90,7 @@ nav{
     font-weight: bolder;
     padding-right: 0px;
 }
-h1, h2, h3, h5, p{
+h1, h2, h3, h4, h5, p{
     text-align: center;
     color: rgb(212, 212, 212);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -98,11 +125,21 @@ ul, li{
     background: rgb(2,0,36);
 }
 .column {
-    display:table-row;
+    display: table-row;
     margin: 0 auto;
+    margin-left: 20px;
     width: 20%;
     padding: 10px;
 }  
 .transparent_text{
     color: rgba(186, 193, 210, 0);
+}
+#footer{
+	position: fixed;
+	padding: 0px 0px 0px 0px;
+	bottom: 0;
+	width: 75%;
+	height: 40px;
+	background: black;
+	opacity: 0.90;
 }
